@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  padding: 0;
+  background-color: #f0f8ff;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+}
+
+#app {
+  width: 80%;
+  background-color: aliceblue;
+  display: flex;
+  flex-direction: column;
+  gap: 2em;
+}
+
+header {
+  text-align: center;
+  font-size: 6em;
+  color: #26428b;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+main {
+  display: flex;
+  gap: 2em;
+}
+
+main img {
+  width: 40%;
+  object-fit: cover;
+  padding-left: 2em;
+  padding-right: 2em;
+}
+
+main p {
+  font-size: 2em;
+  padding: 2em;
+}
+
+#options {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+#options button {
+  padding: 1em;
+  font-size: 200%;
+  font-family: 'Times New Roman', Times, serif;
+  background-color: #f0f8ff;
+  border-width: 5px;
+  border-color: #6495ed;
+  border-radius: 10%;
+  margin-bottom: 1.5em;
+  color: #26428b;
+  font-weight: 550;
+}
