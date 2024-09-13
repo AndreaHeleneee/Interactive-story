@@ -108,9 +108,9 @@ export let newStory = [
       choices: [
         {text: "Yayy, jeg gjorde det!", nextState: 14}]
     },
-    //12 Vagtens vener
+    //12 Vagternes hjælp
     {
-      header: "Vagtens venner",
+      header: "Vagternes hjælp",
       imgUrl: "Anholdelsen.jpg",
       description: "Det er altid godt med assistance! I får tyvene anholdt sammen – de siger mange tak og at du endelig må komme igen en anden dag! :)",
       choices: [
